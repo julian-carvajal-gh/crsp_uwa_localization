@@ -3,15 +3,23 @@ function best_slice = sliding_window(originalWav, receivedWav)
 % [p, q] = rat(44100 / 170000); % Find integer approximation of the fraction
 % rs = resample(x, p, q); % Resample using integer factors
 % disp(fs);
-rs = resample(x, 44100, fs);
+[p,q] = rat(400/fs);
+rs = resample(x, p, q);
 % Calculate the FFT
-N = min(length(rs), length());  % Length of the signal
+N = length(rs);  % Length of the signal
 FX_rs=fft(rs);
 FX_rs_N=FX_rs/max(abs(FX_rs));
 FX_rs_N=abs(FX_rs_N);
  
 [x0,fs0]=audioread(receivedWav);
+x0_low = resample(x0, 8000, fs0);
 col_1=x0(:,1);% Extract the first column
+
+
+if length(col_1) < N
+    fprintf("WAV received is shorter than original.\n");
+end
+
 mses=zeros(length(col_1)-N+1,1);
 for i=1:length(col_1)-N+1
     W_start=i;
@@ -30,7 +38,7 @@ end
  
 [min_mse,i] = min(mses);
 % Display the minimum MSE value
-% fprintf('Minimum MSE at location: %f, %d\n', min_mse,i);
+fprintf('Minimum MSE at location: %f, %d\n', min_mse,i);
  
 %extract portion
 W_start=i;
