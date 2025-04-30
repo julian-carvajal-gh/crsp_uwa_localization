@@ -1,4 +1,5 @@
-function best_slice = sliding_window(originalWav, receivedWav)
+function [best_slice, best_slice_fft] = sliding_window(originalWav, receivedWav)
+%Now returning two variables
 [x, fs] = audioread(originalWav);
 % [p, q] = rat(44100 / 170000); % Find integer approximation of the fraction
 % rs = resample(x, p, q); % Resample using integer factors
@@ -48,7 +49,8 @@ FX_portion=fft(Xre_portion);
 FX_N_portion=FX_portion/max(abs(FX_portion));
 FX_N_portion=abs(FX_N_portion);
 
-best_slice = Xre_portion;
+best_slice = Xre_portion; %time domain of best_slice
+best_slice_fft = FX_N_portion; %frequency domain of best_slice
 
 end
  
