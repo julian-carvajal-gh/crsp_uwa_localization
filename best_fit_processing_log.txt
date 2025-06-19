@@ -1,0 +1,224 @@
+Trying file #1: recordings_to_process/R10A.wav ==> best_fit_recordings/best_R10A.wav
+FILE = recordings_to_process/R10A.wav
+Minimum MSE: 10183.841817 
+Window: 8 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R10A.wav 
+Trying file #2: recordings_to_process/R10B.wav ==> best_fit_recordings/best_R10B.wav
+FILE = recordings_to_process/R10B.wav
+Minimum MSE: 10669.453255 
+Window: 141 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R10B.wav 
+Trying file #3: recordings_to_process/R11A.wav ==> best_fit_recordings/best_R11A.wav
+FILE = recordings_to_process/R11A.wav
+Minimum MSE: 10025.051301 
+Window: 16175 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R11A.wav 
+Trying file #4: recordings_to_process/R11B.wav ==> best_fit_recordings/best_R11B.wav
+FILE = recordings_to_process/R11B.wav
+Minimum MSE: 9827.186828 
+Window: 15 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R11B.wav 
+Trying file #5: recordings_to_process/R12A.wav ==> best_fit_recordings/best_R12A.wav
+FILE = recordings_to_process/R12A.wav
+Minimum MSE: 9709.198128 
+Window: 11954 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R12A.wav 
+Trying file #6: recordings_to_process/R12B.wav ==> best_fit_recordings/best_R12B.wav
+FILE = recordings_to_process/R12B.wav
+Minimum MSE: 9671.164625 
+Window: 25114 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R12B.wav 
+Trying file #7: recordings_to_process/R13A.wav ==> best_fit_recordings/best_R13A.wav
+FILE = recordings_to_process/R13A.wav
+Minimum MSE: 9686.601897 
+Window: 40 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R13A.wav 
+Trying file #8: recordings_to_process/R13B.wav ==> best_fit_recordings/best_R13B.wav
+FILE = recordings_to_process/R13B.wav
+Minimum MSE: 10271.604334 
+Window: 23 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R13B.wav 
+Trying file #9: recordings_to_process/R14A.wav ==> best_fit_recordings/best_R14A.wav
+FILE = recordings_to_process/R14A.wav
+Minimum MSE: 9824.168754 
+Window: 36 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R14A.wav 
+Trying file #10: recordings_to_process/R14B.wav ==> best_fit_recordings/best_R14B.wav
+FILE = recordings_to_process/R14B.wav
+Minimum MSE: 10271.501130 
+Window: 1 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R14B.wav 
+Trying file #11: recordings_to_process/R15A.wav ==> best_fit_recordings/best_R15A.wav
+FILE = recordings_to_process/R15A.wav
+Minimum MSE: 9972.514455 
+Window: 38256 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R15A.wav 
+Trying file #12: recordings_to_process/R15B.wav ==> best_fit_recordings/best_R15B.wav
+FILE = recordings_to_process/R15B.wav
+Minimum MSE: 9161.116401 
+Window: 572452 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R15B.wav 
+Trying file #13: recordings_to_process/R16A.wav ==> best_fit_recordings/best_R16A.wav
+FILE = recordings_to_process/R16A.wav
+Minimum MSE: 11258.009350 
+Window: 34 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R16A.wav 
+Trying file #14: recordings_to_process/R16B.wav ==> best_fit_recordings/best_R16B.wav
+FILE = recordings_to_process/R16B.wav
+Minimum MSE: 10287.074227 
+Window: 31866 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R16B.wav 
+Trying file #15: recordings_to_process/R1A.wav ==> best_fit_recordings/best_R1A.wav
+FILE = recordings_to_process/R1A.wav
+Minimum MSE: 9036.066160 
+Window: 9 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R1A.wav 
+Trying file #16: recordings_to_process/R1B.wav ==> best_fit_recordings/best_R1B.wav
+FILE = recordings_to_process/R1B.wav
+Minimum MSE: 9298.180178 
+Window: 75 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R1B.wav 
+Trying file #17: recordings_to_process/R2A.wav ==> best_fit_recordings/best_R2A.wav
+FILE = recordings_to_process/R2A.wav
+Minimum MSE: 9645.579389 
+Window: 35 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R2A.wav 
+Trying file #18: recordings_to_process/R2B.wav ==> best_fit_recordings/best_R2B.wav
+FILE = recordings_to_process/R2B.wav
+Minimum MSE: 10246.286335 
+Window: 8 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R2B.wav 
+Trying file #19: recordings_to_process/R3A.wav ==> best_fit_recordings/best_R3A.wav
+FILE = recordings_to_process/R3A.wav
+Minimum MSE: 9562.478705 
+Window: 14 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R3A.wav 
+Trying file #20: recordings_to_process/R3B.wav ==> best_fit_recordings/best_R3B.wav
+FILE = recordings_to_process/R3B.wav
+Minimum MSE: 9880.639518 
+Window: 40 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R3B.wav 
+Trying file #21: recordings_to_process/R4A.wav ==> best_fit_recordings/best_R4A.wav
+FILE = recordings_to_process/R4A.wav
+Minimum MSE: 9743.070040 
+Window: 1 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R4A.wav 
+Trying file #22: recordings_to_process/R4B.wav ==> best_fit_recordings/best_R4B.wav
+FILE = recordings_to_process/R4B.wav
+Minimum MSE: 9474.675422 
+Window: 105 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R4B.wav 
+Trying file #23: recordings_to_process/R5A.wav ==> best_fit_recordings/best_R5A.wav
+FILE = recordings_to_process/R5A.wav
+Minimum MSE: 9970.375632 
+Window: 14 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R5A.wav 
+Trying file #24: recordings_to_process/R5B.wav ==> best_fit_recordings/best_R5B.wav
+FILE = recordings_to_process/R5B.wav
+Minimum MSE: 10331.927654 
+Window: 329 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R5B.wav 
+Trying file #25: recordings_to_process/R6A.wav ==> best_fit_recordings/best_R6A.wav
+FILE = recordings_to_process/R6A.wav
+Minimum MSE: 10466.327228 
+Window: 350 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R6A.wav 
+Trying file #26: recordings_to_process/R6B.wav ==> best_fit_recordings/best_R6B.wav
+FILE = recordings_to_process/R6B.wav
+Minimum MSE: 10388.620904 
+Window: 4 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R6B.wav 
+Trying file #27: recordings_to_process/R7A.wav ==> best_fit_recordings/best_R7A.wav
+FILE = recordings_to_process/R7A.wav
+Minimum MSE: 9813.076206 
+Window: 1 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R7A.wav 
+Trying file #28: recordings_to_process/R7B.wav ==> best_fit_recordings/best_R7B.wav
+FILE = recordings_to_process/R7B.wav
+Minimum MSE: 10514.775437 
+Window: 67 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R7B.wav 
+Trying file #29: recordings_to_process/R8A.wav ==> best_fit_recordings/best_R8A.wav
+FILE = recordings_to_process/R8A.wav
+Minimum MSE: 10559.199004 
+Window: 1 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R8A.wav 
+Trying file #30: recordings_to_process/R8B.wav ==> best_fit_recordings/best_R8B.wav
+FILE = recordings_to_process/R8B.wav
+Minimum MSE: 11011.440086 
+Window: 70 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R8B.wav 
+Trying file #31: recordings_to_process/R9A.wav ==> best_fit_recordings/best_R9A.wav
+FILE = recordings_to_process/R9A.wav
+Minimum MSE: 10396.102245 
+Window: 146 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R9A.wav 
+Trying file #32: recordings_to_process/R9B.wav ==> best_fit_recordings/best_R9B.wav
+FILE = recordings_to_process/R9B.wav
+Minimum MSE: 10698.225404 
+Window: 168 
+Samples in original: 375268 
+Samples in best window: 375268 
+Wrote best_fit_recordings/best_R9B.wav
