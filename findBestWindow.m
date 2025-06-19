@@ -1,9 +1,6 @@
-function pathToResult = findBestWindow(pathToOriginal, pathToRecording)
+function findBestWindow(pathToOriginal, pathToRecording, pathToResult)
 % IMPORTANT: This function takes a long time to execute! ~15 minutes per recording!
 % Use the output file for further analysis.
-
-% What folder to write the resulting file to. Must already exist, written with Linux/macOS? filepaths in mind.
-RESULTS_DIR = "best_fits/";
 
 fprintf('FILE = %s\n', pathToRecording);
 
@@ -49,7 +46,6 @@ bestWindow = recordingSamples(bestWindowNumber:bestWindowNumber + WINDOW_SIZE - 
 fprintf('Minimum MSE: %f \nWindow: %i \n', minMse, bestWindowNumber);
 fprintf('Samples in original: %i \nSamples in best window: %i \n', length(originalSamples), length(bestWindow));
 
-pathToResult = RESULTS_DIR + "best_fit_" + pathToRecording;
 audiowrite(pathToResult, bestWindow, recordingSampleRate);
 fprintf('Wrote %s \n', pathToResult);
 
