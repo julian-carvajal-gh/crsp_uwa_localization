@@ -18,13 +18,13 @@ for frameNumber = 1:numFrames
     originalFrame = original(frameStart:frameEnd);
     bestWindowFrame = bestWindow(frameStart:frameEnd);
 
-    originalFrameFft = abs(fft(originalFrame));
+    originalFrameFft = abs(fft(originalFrame, WINDOW_SIZE));
     [~, indexOriginalPeak] = max(originalFrameFft);
-    originalFreqs(frameNumber) = originalFrameFft(indexOriginalPeak);
+    originalFreqs(frameNumber) = (indexOriginalPeak - 1) * bestWindowSampleRate / WINDOW_SIZE;
 
-    bestWindowFrameFft = abs(fft(bestWindowFrame));
+    bestWindowFrameFft = abs(fft(bestWindowFrame, WINDOW_SIZE));
     [~, indexBestWindowPeak] = max(bestWindowFrameFft);
-    bestWindowFreqs(frameNumber) = bestWindowFrameFft(indexBestWindowPeak);
+    bestWindowFreqs(frameNumber) = (indexBestWindowPeak - 1) * bestWindowSampleRate / WINDOW_SIZE;
 end
 
 % Standarization
