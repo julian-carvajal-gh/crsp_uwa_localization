@@ -34,11 +34,19 @@ bestWindowFreqs = (bestWindowFreqs - mean(bestWindowFreqs)) / std(bestWindowFreq
 % Adaptive Learning
 LEARNING_RATE = 0.0001;
 EPOCHS = 200;
-TAPS = 3;
+TAPS = 32;
 
 coefficients = zeros(TAPS, 1);
 mseHistory = zeros(EPOCHS, 1);
 predictedSignal = zeros(length(originalFreqs), 1);
+
+% Visualize MSE as we go along
+figure(Name='MSE');
+msePlot = plot(NaN, NaN);
+title('MSE Convergence');
+xlabel('Epoch');
+ylabel('Mean Squared Error (MSE)');
+grid on;
 
 for epoch = 1:EPOCHS
     for i = TAPS:length(originalFreqs)
@@ -53,6 +61,8 @@ for epoch = 1:EPOCHS
 
     if epoch == 1 || mod(epoch, 10) == 0
         fprintf('Epoch %i:\t MSE = %.6f \n', epoch, mseHistory(epoch));
+        set(msePlot, 'XData', 1:epoch, 'YData', mseHistory(1:epoch));
+        drawnow;
     end
 
 end
